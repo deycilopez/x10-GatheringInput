@@ -7,8 +7,14 @@
     <script>
       function getName(){
         var fullname;
-        fullname = "first"
+        fullname = "first name"
         document.getElementById("first").value;
+        document.getElementById("message").innerHTML = fullname;
+      }
+      function getName(){
+        var fullname = "first name";
+        fullname = fullname + "last name"
+        document.getElementById("last").value;
         document.getElementById("message").innerHTML = fullname;
       }
     </script>
